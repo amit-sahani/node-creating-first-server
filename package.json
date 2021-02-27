@@ -4,7 +4,7 @@
   "description": "This is the firat project towards learning node",
   "main": "index.js",
   "scripts": {
-    "start": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./src/index.js --exec babel-node -e js"
   },
   "author": "Amit Sahani",
   "license": "ISC",
